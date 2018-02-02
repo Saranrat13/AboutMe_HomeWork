@@ -1,0 +1,48 @@
+
+body {
+  margin: 0 auto;
+  background-color: #ffffe6;
+  font-size: 18px;
+  color: #55552b;
+  font-variant: small-caps;
+}
+
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+.row img{
+  margin-right: 30px; 
+}
+
+p {
+  margin-top: 30px; 
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 0px;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  padding: 30px;
+  margin: 0px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin:auto;
+  width: 100%;
+
+}
+
